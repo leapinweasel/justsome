@@ -14,7 +14,7 @@
 
 <p align='center'>
   <strong>English</strong> |
-  <a href="https://github.com/juanmesa2097/angular-boilerplate/blob/main/README.es-CO.md">Español</a>
+  <a href="https://github.com/leapinweasel/justsome/blob/main/README.es-CO.md">Español</a>
 </p>
 
 <br>
@@ -73,14 +73,14 @@ This opinionated Angular starter focuses on the latest Angular features and best
 
 ### Using the GitHub template
 
-[Create a repo from this template on GitHub](https://github.com/juanmesa2097/angular-boilerplate/generate).
+[Create a repo from this template on GitHub](https://github.com/leapinweasel/justsome/generate).
 
 ---
 
 ### Cloning the repository locally
 
 ```sh
-npx degit juanmesa2097/angular-boilerplate my-app && cd my-app && ./scripts/rename_project.sh my-app
+npx degit leapinweasel/justsome my-app && cd my-app && ./scripts/rename_project.sh my-app
 ```
 
 ### Install dependencies
@@ -97,7 +97,7 @@ pnpm dev
 
 ---
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/juanmesa2097/angular-boilerplate)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/leapinweasel/justsome)
 
 ## 📝 Checklist
 
@@ -111,24 +111,24 @@ Please review this checklist and modify it as necessary to meet your project req
 
 ## 📦 Deploy to Vercel
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/juanmesa2097/angular-boilerplate)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/leapinweasel/justsome)
 
 ## 📦 Deploy to Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/juanmesa2097/angular-boilerplate)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/leapinweasel/justsome)
 
 ## 🐳 Docker
 
 Create an image of the project.
 
 ```sh
-docker buildx build -t angular-boilerplate:latest .
+docker buildx build -t justsome:latest .
 ```
 
 Run the image of the project.
 
 ```sh
-docker run --rm -p 8080:80 -d angular-boilerplate:latest
+docker run --rm -p 8080:80 -d justsome:latest
 ```
 
 ## 🧙‍♂️ Commands
