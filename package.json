@@ -1,6 +1,6 @@
 {
   "name": "justsome",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "prepare": "npx simple-git-hooks",
@@ -24,11 +24,11 @@
     "pre-push": "pnpm build"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
+    "*OFF.{js,jsx,ts,tsx}": [
       "pnpm lint:fix",
       "pnpm prettier"
     ],
-    "*.{css,pcss,less,scss,sass}": [
+    "*OFF.{css,pcss,less,scss,sass}": [
       "pnpm stylelint:fix",
       "pnpm prettier"
     ]

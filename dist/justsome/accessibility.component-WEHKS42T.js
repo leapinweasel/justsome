@@ -1,0 +1,2 @@
+import{Ca as i,Ia as r,Q as o,kb as s}from"./chunk-2FFS3JCV.js";import"./chunk-FC6Q6UXU.js";var d=(()=>{let e=class{},t=e;return(()=>{e.\u0275fac=function(n){return new(n||e)}})(),(()=>{e.\u0275cmp=o({type:e,selectors:[["ng-component"]],standalone:!0,features:[r],decls:1,vars:0,template:function(n,c){n&1&&i(0,`Accessibility works!
+`)},dependencies:[s],encapsulation:2})})(),t})();export{d as AccessibilityComponent};
